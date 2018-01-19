@@ -1,4 +1,4 @@
-#if og else statemens
+# if og else statemens
 
 **if** statemens bruges til at udføre et stump kode, hvis **if** statementen er **true**.
 
