@@ -37,8 +37,8 @@
 
 //øvelse 5
 
-let ugeDage = ['mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag', 'søndag'];
-let i=0;
-for(i=0; i<ugeDage.length; i++){
-    console.log(ugeDage[i]);
-}
+// let ugeDage = ['mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag', 'søndag'];
+// let i=0;
+// for(i=0; i<ugeDage.length; i++){
+//     console.log(ugeDage[i]);
+// }
