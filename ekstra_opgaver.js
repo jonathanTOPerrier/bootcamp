@@ -36,17 +36,17 @@
 
 // let pali = 'bob';
 
-// let i= pali.length-1;
+// let i = pali.length - 1;
 
-// let comp ='';
+// let comp = '';
 
-// for(i=pali.length-1; i>=0; i--){
-// 	comp+=pali[i];
+// for (i = pali.length - 1; i >= 0; i--) {
+//     comp += pali[i];
 // }
-// if(comp==pali){
-// 	console.log('ja det er et palindron');
-// }else{
-// 	console.log('nej det er ikke');
+// if (comp == pali) {
+//     console.log('ja det er et palindron');
+// } else {
+//     console.log('nej det er ikke');
 // }
 
 //øvelse 4
@@ -161,25 +161,172 @@
 // console.log(tekst2);
 // console.log(tekst3);
 
-
-function ligEllerUlig(tallet) {
-
-    if () {
-
-    }
-
-}
-
-var resultat1 = ligEllerUlig(0);  // returnerer 0
-var resultat2 = ligEllerUlig(1);  // returnerer 1
-var resultat3 = ligEllerUlig(2);  // returnerer 0
-var resultat4 = ligEllerUlig(3);  // returnerer 1
-
-var resultat5 = ligEllerUlig(-1);  // returnerer 1
-var resultat6 = ligEllerUlig(-2);  // returnerer 0
-var resultat7 = ligEllerUlig(-3);  // returnerer 1
-
-var resultat8 = ligEllerUlig(3.7);  // returnerer øh... Hvad synes du?
+//øvelse 10
 
 
-console.log(resultat1 + ' ' + resultat2 + ' ' + ' ' +)
+// function ligEllerUlig(tallet) {
+
+//     if (tallet == Math.round(tallet)) {
+//         return tallet % 2;
+//     } else {
+//         return 'hvad tror du selv';
+//     }
+
+// }
+
+// var resultat1 = ligEllerUlig(0);  // returnerer 0
+// var resultat2 = ligEllerUlig(1);  // returnerer 1
+// var resultat3 = ligEllerUlig(2);  // returnerer 0
+// var resultat4 = ligEllerUlig(3);  // returnerer 1
+
+// var resultat5 = ligEllerUlig(-1);  // returnerer 1
+// var resultat6 = ligEllerUlig(-2);  // returnerer 0
+// var resultat7 = ligEllerUlig(-3);  // returnerer 1
+
+// var resultat8 = ligEllerUlig(3.7);  // returnerer øh... Hvad synes du?
+
+
+// console.log(resultat1);
+// console.log(resultat2);
+// console.log(resultat3);
+// console.log(resultat4);
+// console.log(resultat5);
+// console.log(resultat6);
+// console.log(resultat7);
+// console.log(resultat8);
+
+//øvelse 11
+
+// function rouletteArray(tallet, arr) {
+//     let tal = tallet % arr.length;
+
+//     return arr[tal];
+// }
+
+
+
+// var farve1 = rouletteArray(0, ["rød", "grøn", "blå"]);  // returnerer "rød"
+// var farve2 = rouletteArray(1, ["rød", "grøn", "blå"]);  // returnerer "grøn"
+// var farve3 = rouletteArray(2, ["rød", "grøn", "blå"]);  // returnerer "blå"
+// var farve4 = rouletteArray(3, ["rød", "grøn", "blå"]);  // returnerer "rød"
+// var farve5 = rouletteArray(4, ["rød", "grøn", "blå"]);  // returnerer "grøn"
+
+// var style1 = rouletteArray(0, [".bright", ".dark"]);  // returnerer ".bright"
+// var style2 = rouletteArray(1, [".bright", ".dark"]);  // returnerer ".dark"
+// var style3 = rouletteArray(2, [".bright", ".dark"]);  // returnerer ".bright"
+// var style4 = rouletteArray(3, [".bright", ".dark"]);  // returnerer ".dark"
+
+// console.log(farve1);
+// console.log(farve2);
+// console.log(farve3);
+// console.log(farve4);
+// console.log(farve5);
+
+// console.log(style1);
+// console.log(style2);
+// console.log(style3);
+// console.log(style4);
+
+
+// function vinkel360(v) {
+
+//     if (v >= 360) {
+//         return v % 360;
+//     }
+//     if (v < 360 && v >= 0) {
+//         return v
+//     }
+//     if (v < 0) {
+//         return 360 + v;
+//     }
+// }
+
+// var vinkel1 = vinkel360(0);  // returnerer   0
+// var vinkel2 = vinkel360(360);  // returnerer   0
+// var vinkel3 = vinkel360(720);  // returnerer   0
+
+// var vinkel4 = vinkel360(10);  // returnerer  10
+// var vinkel5 = vinkel360(-10);  // returnerer 350
+// var vinkel6 = vinkel360(365);  // returnerer   5
+// var vinkel7 = vinkel360(725);  // returnerer   5
+
+// console.log(vinkel1);
+// console.log(vinkel2);
+// console.log(vinkel3);
+// console.log(vinkel4);
+// console.log(vinkel5);
+// console.log(vinkel6);
+// console.log(vinkel7);
+
+
+
+// function afstand2d(x1, y1, x2, y2) {
+
+//     if (x1 == x2) {
+//         return y2 - y1;
+//     } else if (y1 == y2) {
+//         return x2 - x1;
+//     } else if (x1 < 0) {
+//         let a = (x1 * -1) + x2;
+//         let b = (y1 * -1) + y2;
+//         let c = Math.pow(a, 2) + Math.pow(b, 2);
+//         return Math.sqrt(c);
+//     } else {
+//         let a = x2 - x1;
+//         let b = y2 - y1;
+//         let c = Math.pow(a, 2) + Math.pow(b, 2);
+//         return c = Math.sqrt(c);
+//     }
+
+// }
+
+// var afstand1 = afstand2d(0, 0, 1, 0);  // returnerer 1
+// var afstand2 = afstand2d(0, 0, 5, 0);  // returnerer 5
+// var afstand3 = afstand2d(2, 0, 5, 0);  // returnerer 3
+
+// var afstand4 = afstand2d(0, 0, 1, 1);  // returnerer 1.414
+// var afstand5 = afstand2d(1, 1, 2, 2);  // returnerer 1.414
+// var afstand6 = afstand2d(2, 2, 3, 3);  // returnerer 1.414
+
+// var afstand7 = afstand2d(0, 0, 2, 2);  // returnerer 2.828
+// var afstand8 = afstand2d(-1, -1, 1, 1);  // returnerer 2.828
+
+// console.log(afstand1);
+// console.log(afstand2);
+// console.log(afstand3);
+// console.log(afstand4);
+// console.log(afstand5);
+// console.log(afstand6);
+// console.log(afstand7);
+// console.log(afstand8);
+
+// function bøde(farten) {
+
+//     let kontrol = (farten / 50) - 1;
+
+//     if (kontrol < 0.3) {
+//         return 'fartbøde';
+//     } else if (kontrol < 0.6 && kontrol > 0.3) {
+//         return 'fartbøde + klip i kørrekortet';
+//     } else if (kontrol > 0.6 || farten == 160 || farten >= 200) {
+//         return 'fartbøde + betinget frakendelse';
+//     }
+
+
+// }
+
+
+// let fart1 = bøde(60);
+// let fart2 = bøde(70);
+// let fart3 = bøde(80);
+// let fart4 = bøde(180);
+
+// console.log(fart1);
+// console.log(fart2);
+// console.log(fart3);
+// console.log(fart4);
+
+// function spiritusKoersel(){
+
+// }
+
