@@ -1,5 +1,7 @@
 # Variabler
 
+en variabel bruger man til at holde(gemme) værdier af forskellige datatyper.
+
 **Strings** er et stykke tekst der opretter ved at sætte '' omkring det, det kan gemmes i en variabel eller bruges i en funktion.
 
 **Numbers** er et tal der kan komme til udtryk i en variabel eller igen bruges i en funktion. Hvis det gemmes i en variabel kan man let trække fra eller ligge til den variabel og gemme det auto autimatisk.

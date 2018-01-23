@@ -4,4 +4,6 @@
 
 *Else* bruges hvis alle **if** statemententsne er **false**, så udføres den stump kode.
 
-Hvis man skal have flere statements bruger man *else* **if** for at være sikker på at det kun er den stump kode der udføres.
+```javascript
+
+```

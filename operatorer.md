@@ -5,7 +5,7 @@
 * === samme som og samme data type
 * ! ikke
 * != ikke det samme som
-* !== ikke det samme som og ikke samme datatype
+* !== ikke det samme som og men stadigvæk samme datatype
 * /< mindrer end
 * /> størrer end
 * /<= mindrer end eller lig med

@@ -1,8 +1,8 @@
 //opgave 2 boleans
 
-var tjek = true;
+var tjek = 0;
 
-if(tjek===true){
+if(tjek==true){
 console.log('bøllebob');
 }
 
@@ -17,7 +17,7 @@ if(ranTal<2){
     console.log(ranTal);
 }
 //øvelse 4
-
+//ternery operator
 var result = tjek? 'rigtigt' : 'forkert' ;
 
 console.log(result);
@@ -51,5 +51,6 @@ switch(laeskedrik){
     case 'Faxe Kondi':
         console.log('Faxe Kondi er gud');
     break;
+    default: //vigtig else i forhold til if/else
 }
 

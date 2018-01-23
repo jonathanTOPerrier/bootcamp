@@ -1,56 +1,58 @@
-/*
 //øvelse
 
 let forste = 100;
 
 let anden = 20;
 
-console.log(forste+anden);
-console.log(forste-anden);
-console.log(forste/anden);
-console.log(forste*anden);
-console.log(forste%anden);
-console.log(forste++);
-console.log(forste--);
+// console.log(forste+anden);
+// console.log(forste-anden);
+// console.log(forste/anden);
+// console.log(forste*anden);
+// console.log(forste%anden);
+// forste++;
+// console.log(forste);
+// forste--;
+// forste--;
+// console.log(forste);
 
-//øvelse 3
-console.log('øvelse 3!!!!!');
+// //øvelse 3
+// console.log('øvelse 3!!!!!');
 
-let resultat = forste+anden;
+// let resultat = forste+anden;
 
-console.log(resultat);
+// console.log(resultat);
 
-resultat = forste-anden;
+// resultat = forste-anden;
 
-console.log(resultat);
+// console.log(resultat);
 
-resultat = forste*anden;
+// resultat = forste*anden;
 
-console.log(resultat);
+// console.log(resultat);
 
-resultat = forste/anden;
+// resultat = forste/anden;
 
-console.log(resultat);
+// console.log(resultat);
 
-resultat = forste%anden;
+// resultat = forste%anden;
 
-console.log(resultat);
+// console.log(resultat);
 
-//øvelse 4
+// //øvelse 4
 
-console.log('øvelse 4!!!');
+// console.log('øvelse 4!!!');
 
-let navn = 'bob';
+// let navn = 'bob';
 
-let by = 'fiesta';
+// let by = 'fiesta';
 
-if( navn == 'bob' && by == 'fiesta'){
-    console.log('ej hvor sjovt det virker, har jeg slet ikke kunnet i en måned nu');
-}else{
-    console.log('Så havner vi i else, høhøhøhøhø!!!');
-}
+// if( navn == 'bob' && by == 'fiesta'){
+//     console.log('ej hvor sjovt det virker, har jeg slet ikke kunnet i en måned nu');
+// }else{
+//     console.log('Så havner vi i else, høhøhøhøhø!!!');
+// }
 
-//øvelse 4 (5)
+// //øvelse 4 (5)
 
 let navn = 'troels';
 
@@ -60,4 +62,4 @@ if( navn == 'bob' || by == 'fiesta'){
     console.log('ej hvor sjovt det virker, har jeg slet ikke kunnet i en måned nu');
 }else{
     console.log('Så havner vi i else, høhøhøhøhø!!!');
-}*/
+}
