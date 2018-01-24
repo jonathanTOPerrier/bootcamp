@@ -326,7 +326,27 @@
 // console.log(fart3);
 // console.log(fart4);
 
-// function spiritusKoersel(){
+// function spiritusKoersel(promille) {
+
+//     let fraken = [' betinget frakendelse og køreselsforbud (dvs. nyt køreselskursus skal bestås)',
+//         ' ubetinget frakendelse i min. 3 år og køreselsforbud (dvs. nyt køreselskursus skal bestås)',
+//         ' fængsel i 20 dage og køreselsforbud (dvs. nyt køreselskursus skal bestås)'];
+//     let bøde = [' * med månedslønnen', ' * månedsløn'];
+//     let hvilkenFra = 0;
+
+//     if (promille <= 1.2 && promille > 0.51) {
+//         return 'Da promillen ligger på ' + promille + ' får køren en' + fraken[0] + ' af kørrekortet og en bøde på ' + promille + bøde[0];
+//     } else if (promille > 1.2 && promille < 2) {
+//         return 'Da promillen ligger på ' + promille + ' får køren en' + fraken[1] + ' af kørrekortet og en bøde på ' + promille
+//             + bøde[0];
+//     } else if (promille >= 2) {
+//         return 'Da promillen ligger på ' + promille + ' får køren en' + fraken[2] + ' af kørrekortet og en bøde på ' + promille + bøde[1];
+//     } else {
+//         return 'Promillen ligger på ' + promille + ' og det er ikke højt nok til at udløse en bøde eller straf';
+//     }
 
 // }
 
+// let prom = spiritusKoersel(0.4);
+
+// console.log(prom);
