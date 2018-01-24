@@ -100,25 +100,27 @@
 //øvelse 7
 
 
-// let hoejde = 1.98;
-// let vaegt = 96;
-// let bmi = vaegt/(hoejde*hoejde);
+// function tjekBmi(hoejde, vaegt) {
 
-// if(bmi<18.5){
-//     console.log('Din BMI er '+bmi+ ' og du er undervægtig')
+//     let bmi = vaegt / (hoejde * hoejde);
+
+//     if (bmi < 18.5) {
+//         return 'Din BMI er ' + bmi + ' og du er undervægtig';
+//     }
+//     if (bmi > 18.5 && bmi < 24.9) {
+//         return 'Din BMI er ' + bmi + ' og du er normaltvægtig';
+//     }
+//     if (bmi > 24.9 && bmi < 29.9) {
+//         return 'Din BMI er ' + bmi + ' og du er overvægtig'
+//     }
+//     if (bmi > 29.9 && bmi < 39.9) {
+//         return 'Din BMI er ' + bmi + ' og du er fed';
+//     }
+//     if (bmi > 39.9) {
+//         return 'Din BMI er ' + bmi + ' og du er svært overvægtig';
+//     }
 // }
-// if(bmi>18.5 && bmi<24.9){
-//     console.log('Din BMI er '+bmi+' og du er normaltvægtig')
-// }
-// if(bmi>24.9 && bmi<29.9){
-//     console.log('Din BMI er '+bmi+' og du er overvægtig')
-// }
-// if(bmi>29.9 && bmi<39.9){
-//     console.log('Din BMI er '+bmi+' og du er fed')
-// }
-// if(bmi>39.9){
-//     console.log('Din BMI er '+bmi+' og du er svært overvægtig')
-// }
+// console.log(tjekBmi(1.98, 96));
 
 //øvelse 8 valuta
 
