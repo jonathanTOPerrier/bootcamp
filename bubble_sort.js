@@ -1,32 +1,32 @@
-// let tal = [34, 23, 12, 45, 9, 1, 24, 137, 142];
+let tal = [34, 23, 12, 45, 9, 1, 24, 137, 142];
 
-// console.log(tal);
+console.log(tal);
 
-// function sorter(arr) {
-//     let laengde = arr.length;
+function sorter(arr) {
+    let laengde = arr.length;
 
-//     //kører gennem arrayet
+    //kører gennem arrayet
 
-//     for (let i = (laengde - 1); i > 0; i--) {
-//         //sammenligner nummeret med det forrige, ved at loope igennem arrayet med det nummer
-//         for (let nuv = (laengde - i); nuv > 0; nuv--) {
-//             //bytter om på numrerne ved at gemme det nuværende med det før i arrayet
-//             if (tal[nuv] < tal[nuv - 1]) {
-//                 //byt nummeret
-//                 //gemmer nummeret til at sætte den før til den nuværende
-//                 let midlertidig = tal[nuv];
-//                 //sætter nuværende til den før, hvis den før er størrer
-//                 tal[nuv] = tal[nuv - 1];
-//                 //sætter den før til den nuværende
-//                 tal[nuv - 1] = midlertidig;
-//             }
-//         }
+    for (let i = (laengde - 1); i > 0; i--) {
+        //sammenligner nummeret med det forrige, ved at loope igennem arrayet med det nummer
+        for (let nuv = (laengde - i); nuv > 0; nuv--) {
+            //bytter om på numrerne ved at gemme det nuværende med det før i arrayet
+            if (tal[nuv] < tal[nuv - 1]) {
+                //byt nummeret
+                //gemmer nummeret til at sætte den før til den nuværende
+                let midlertidig = tal[nuv];
+                //sætter nuværende til den før, hvis den før er størrer
+                tal[nuv] = tal[nuv - 1];
+                //sætter den før til den nuværende
+                tal[nuv - 1] = midlertidig;
+            }
+        }
 
-//     }
+    }
 
-// }
-// sorter(tal);
-// console.log(tal);
+}
+sorter(tal);
+console.log(tal);
 
 let navne = ['Bent', 'Henrik', 'Jens', 'Søren', 'Maria', 'Albert'];
 
