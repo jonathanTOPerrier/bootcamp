@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+</head>
+
+<body>
+
+    <div id="content"></div>
+
+    <script>
+        fetch('https://swapi.co/api/people/')
+            .then((response) => {
+
+                // øvelse 4
+
+                if (response.status != 200) {
+                    throw new error();
+                }
+                else if (response.status == 200) {
+                    return response.json();
+                }
+            })
+            .then((json) => {
+
+
+
+                lavPersonen(json.results[0]);
+
+
+
+
+
+            })
+            .catch(function (error) {
+
+                //øvelse 3
+                console.log(error);
+            })
+
+
+
+        function lavPersonen(obj) {
+            for (i in obj) {
+                let content = document.getElementById('content');
+                let h1 = document.createElement('h1');
+                h1.textContent = obj[i];
+                content.appendChild(h1);
+
+            }
+            // obj.array.forEach(function (val, index, arr) {
+            //     let content = document.getElementById('content');
+            //     let h1 = document.createElement('h1');
+            //     h1.textContent = val;
+            //     content.appendChild(h1);
+
+            // });
+
+        }
+
+
+            //øvelse 1
+
+                //let content = document.getElementById('content');
+
+                // let h1 = document.createElement('h1');
+                // h1.textContent = json.results[0].name;
+                // content.appendChild(h1);
+                // let h2 = document.createElement('h1');
+                // h2.textContent = json.results[0].height;
+                // content.appendChild(h2);
+                // let h3 = document.createElement('h1');
+                // h3.textContent = json.results[0].eye_color;
+                // content.appendChild(h3);
+
+                //øvelse 2
+
+ // let content = document.getElementById('content');
+
+                // json.results.forEach(function (val, i, arr) {
+                //     let h1 = document.createElement('h1');
+                //     h1.textContent = json.results[i].name;
+                //     content.appendChild(h1);
+                // });
+
+    </script>
+</body>
+
+</html>
